@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@400;600;700;800&display=swap"
+    rel="stylesheet" />
+  <script type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="herder">
+    <div class="admin">
+      <ion-icon name="grid-outline"></ion-icon>
+      <h1>Administrator</h1>
+    </div>
+    <div class="option">
+      <ul class="option-list">
+        <li class="option-item option-item-first">
+          <ion-icon name="arrow-undo-outline"></ion-icon>
+          <a href="#">Vào trang web</a>
+        </li>
+        <li class="option-item">
+          <a href="#">Liên hệ</a>
+        </li>
+        <li class="option-item">
+          <a href="3">Đơn hàng</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <main class="content">
+    <section class="content-left">
+      <ul>
+        <li>
+          <ion-icon name="home-outline"></ion-icon>
+          <a href="#">Trang chủ Admin</a>
+        </li>
+        <li class="category">
+          <ion-icon name="file-tray-outline"></ion-icon>
+          <a id="category" href="#">Quản trị danh mục</a>
+          <ion-icon class="category-icon" name="caret-down-outline"></ion-icon>
+        </li>
+        <li>
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+          <a href="#">Loại danh mục</a>
+        </li>
+        <li id="product">
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+          <a href="#">Sản phẩm</a>
+        </li>
+        <li>
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+          <a href="#">Bài viết</a>
+        </li>
+        <li>
+          <ion-icon name="list-outline"></ion-icon>
+          <a href="#">Quản trị giao diện</a>
+        </li>
+        <li>
+          <ion-icon name="location-outline"></ion-icon>
+          <a href="#">Quản trị thông tin</a>
+        </li>
+        <li>
+          <ion-icon name="newspaper-outline"></ion-icon>
+          <a href="#">SEO website</a>
+        </li>
+        <li>
+          <ion-icon name="person-outline"></ion-icon>
+          <a href="#">Cấu hình user</a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="content-right">
+      <div class="content-right-header">
+        <ul>
+          <li>
+            <ion-icon name="home-outline"></ion-icon>
+            <a href="#">Trang chủ</a>
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+          </li>
+          <li>
+            <a href="#">Danh mục</a>
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+          </li>
+          <li>
+            <a href="#">Sản phẩm</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="feature">
+        <span>
+          Tác vụ
+          <ion-icon name="caret-down-outline"></ion-icon>
+        </span>
+        <input type="text" placeholder="Tìm kiếm" />
+        <span>
+          Tìm theo
+          <ion-icon name="caret-down-outline"></ion-icon>
+        </span>
+        <span>
+          Số hiển thị
+          <ion-icon name="caret-down-outline"></ion-icon>
+        </span>
+        <span>
+          Xem tất cả sản phẩm
+          <ion-icon name="caret-down-outline"></ion-icon>
+        </span>
+        <span class="feature-add">
+
+          <a style="text-decoration:none; color:white" href="./product.html">Thêm mới</a>
+
+          <ion-icon name="add-outline"></ion-icon>
+        </span>
+      </div>
+
+      <div class="table-product">
+        <table>
+          <tr>
+            <th width="50px" height="30px"> <input type="checkbox" name="" id=""> </th>
+            <th width="70px" height="30px">STT</th>
+            <th width="130px" height="30px">Danh mục</th>
+            <th width="180px" height="30px">Tên sản phẩm</th>
+            <th width="90px" height="30px">Giá tiền</th>
+            <th width="70px" height="30px">Nổi bật</th>
+            <th width="70px" height="30px">Mới</th>
+            <th width="70px" height="30px">Hiển thị</th>
+            <th width="70px" height="30px">Tác vụ</th>
+          </tr>
+          <tr>
+            <td height="30px" align="center" width="50px"> <input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="70px">1</td>
+            <td height="30px" class="pl10" width="180px">Điện Thoại</td>
+            <td height="30px" class="pl10" width="200px">Iphone 13 Promax</td>
+            <td height="30px" class="pl10" width="120px">23.000.000</td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px" class="edit">
+              <ion-icon name="create-outline"></ion-icon>
+              <ion-icon name="trash-outline"></ion-icon>
+            </td>
+          </tr>
+          <tr>
+            <td height="30px" align="center" width="50px"> <input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="70px">2</td>
+            <td height="30px" class="pl10" width="180px">Điện thoại</td>
+            <td height="30px" class="pl10" width="200px">Samsung Galaxy S22</td>
+            <td height="30px" class="pl10" width="120px">31.000.000</td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px" class="edit">
+              <ion-icon name="create-outline"></ion-icon>
+              <ion-icon name="trash-outline"></ion-icon>
+            </td>
+          </tr>
+          <tr>
+            <td height="30px" align="center" width="50px"> <input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="70px">3</td>
+            <td height="30px" class="pl10" width="180px">Điện Thoại</td>
+            <td height="30px" class="pl10" width="200px">Oppo 128GB</td>
+            <td height="30px" class="pl10" width="120px">19.000.000</td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px" class="edit">
+              <ion-icon name="create-outline"></ion-icon>
+              <ion-icon name="trash-outline"></ion-icon>
+            </td>
+          </tr>
+          <tr>
+            <td height="30px" align="center" width="50px"> <input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="70px">4</td>
+            <td height="30px" class="pl10" width="180px">Laptop</td>
+            <td height="30px" class="pl10" width="200px">Asus Zephyrus G14</td>
+            <td height="30px" class="pl10" width="120px">39.000.000</td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px" class="edit">
+              <ion-icon name="create-outline"></ion-icon>
+              <ion-icon name="trash-outline"></ion-icon>
+            </td>
+          </tr>
+          <tr>
+            <td height="30px" align="center" width="50px"> <input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="70px">5</td>
+            <td height="30px" class="pl10" width="180px">Laptop</td>
+            <td height="30px" class="pl10" width="200px">Dell Pprecision 5510</td>
+            <td height="30px" class="pl10" width="120px">16.000.000</td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px" class="edit">
+              <ion-icon name="create-outline"></ion-icon>
+              <ion-icon name="trash-outline"></ion-icon>
+            </td>
+          </tr>
+          <tr>
+            <td height="30px" align="center" width="50px"> <input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="70px">6</td>
+            <td height="30px" class="pl10" width="180px">Máy lạnh</td>
+            <td height="30px" class="pl10" width="200px">Honeywell CL20AE</td>
+            <td height="30px" class="pl10" width="120px">3.170.000</td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px" class="edit">
+              <ion-icon name="create-outline"></ion-icon>
+              <ion-icon name="trash-outline"></ion-icon>
+            </td>
+          </tr>
+          <tr>
+            <td height="30px" align="center" width="50px"> <input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="70px">7</td>
+            <td height="30px" class="pl10" width="180px">Laptop</td>
+            <td height="30px" class="pl10" width="200px">Lenovo IdeaPad 3 15ITL6</td>
+            <td height="30px" class="pl10" width="120px">17.590.000</td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px" class="edit">
+              <ion-icon name="create-outline"></ion-icon>
+              <ion-icon name="trash-outline"></ion-icon>
+            </td>
+          </tr>
+          <tr>
+            <td height="30px" align="center" width="50px"> <input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="70px">8</td>
+            <td height="30px" class="pl10" width="180px">Laptop</td>
+            <td height="30px" class="pl10" width="200px">Acer Aspire 7 Gaming A715</td>
+            <td height="30px" class="pl10" width="120px">20.490.000</td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px" class="edit">
+              <ion-icon name="create-outline"></ion-icon>
+              <ion-icon name="trash-outline"></ion-icon>
+            </td>
+          </tr>
+          <tr>
+            <td height="30px" align="center" width="50px"> <input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="70px">9</td>
+            <td height="30px" class="pl10" width="180px">Máy giặt</td>
+            <td height="30px" class="pl10" width="200px">Aqua Inverter 8 Kg AQD-A800F W</td>
+            <td height="30px" class="pl10" width="120px">6.890.000</td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px" class="edit">
+              <ion-icon name="create-outline"></ion-icon>
+              <ion-icon name="trash-outline"></ion-icon>
+            </td>
+          </tr>
+          <tr>
+            <td height="30px" align="center" width="50px"> <input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="70px">10</td>
+            <td height="30px" class="pl10" width="180px">Máy giặt</td>
+            <td height="30px" class="pl10" width="200px">Samsung Inverter 9 Kg WW90TP44DSB/SV</td>
+            <td height="30px" class="pl10" width="120px">10.099.000</td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px" class="edit">
+              <ion-icon name="create-outline"></ion-icon>
+              <ion-icon name="trash-outline"></ion-icon>
+            </td>
+          </tr>
+          <tr>
+            <td height="30px" align="center" width="50px"> <input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="70px">11</td>
+            <td height="30px" class="pl10" width="180px">Máy giặt</td>
+            <td height="30px" class="pl10" width="200px">Electrolux Inverter 8 Kg EWF8025CQWA</td>
+            <td height="30px" class="pl10" width="120px">8.000.000</td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px" class="edit">
+              <ion-icon name="create-outline"></ion-icon>
+              <ion-icon name="trash-outline"></ion-icon>
+            </td>
+          </tr>
+          <tr>
+            <td height="30px" align="center" width="50px"> <input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="70px">12</td>
+            <td height="30px" class="pl10" width="180px">Điện Gia Dụng</td>
+            <td height="30px" class="pl10" width="200px">Nồi chiên không dầu Kalite Q5 5 lít</td>
+            <td height="30px" class="pl10" width="120px">2.189.000</td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px" class="edit">
+              <ion-icon name="create-outline"></ion-icon>
+              <ion-icon name="trash-outline"></ion-icon>
+            </td>
+          </tr>
+          <tr>
+            <td height="30px" align="center" width="50px"> <input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="70px">13</td>
+            <td height="30px" class="pl10" width="180px">Điện Gia Dụng</td>
+            <td height="30px" class="pl10" width="200px">Máy lọc không khí BlueStone APB-9575</td>
+            <td height="30px" class="pl10" width="120px">3.990.000</td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px" class="edit">
+              <ion-icon name="create-outline"></ion-icon>
+              <ion-icon name="trash-outline"></ion-icon>
+            </td>
+          </tr>
+          <tr>
+            <td height="30px" align="center" width="50px"> <input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="70px">14</td>
+            <td height="30px" class="pl10" width="180px">Máy nước nóng</td>
+            <td height="30px" class="pl10" width="200px">Máy nước nóng Ariston SL2 20 RS 2.5 FE</td>
+            <td height="30px" class="pl10" width="120px">3.290.000</td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px" class="edit">
+              <ion-icon name="create-outline"></ion-icon>
+              <ion-icon name="trash-outline"></ion-icon>
+            </td>
+          </tr>
+          <tr>
+            <td height="30px" align="center" width="50px"> <input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="70px">15</td>
+            <td height="30px" class="pl10" width="180px">Máy nước nóng</td>
+            <td height="30px" class="pl10" width="200px">Máy nước nóng Kangaroo KG 73R2</td>
+            <td height="30px" class="pl10" width="120px">2.390.000</td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px"><input type="checkbox" name="" id="">
+            </td>
+            <td height="30px" align="center" width="100px" class="edit">
+              <ion-icon name="create-outline"></ion-icon>
+              <ion-icon name="trash-outline"></ion-icon>
+            </td>
+          </tr>
+
+        </table>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
